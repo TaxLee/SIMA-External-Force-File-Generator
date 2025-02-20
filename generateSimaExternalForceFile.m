@@ -393,5 +393,4 @@ catch ME
     warning('Could not save comparison figure: %s', ME.message);
 end
 
-close(figH);
 end

@@ -5,10 +5,10 @@
     }
   },
   "var_to_process": {
-      "Mom_AboutLocalY_axis_End1": {
-          "transformationFunctionToTheVar": "Var=Var*(-1)",
-          "outputFileName": "Mom_AboutLocalY_axis_End1.txt"
-      }
+    "Mom_AboutLocalY_axis_End1": {
+      "transformationFunctionToTheVar": "m=mean(Var); Var=2*m - Var;",
+      "outputFileName": "Mom_AboutLocalY_axis_End1.txt"
+    }
   },
   "output_folder": "Results",
   "generated_subfolder": "Figures",
