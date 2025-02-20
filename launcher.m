@@ -134,5 +134,3 @@ fprintf('\n=============================================\n');
 fprintf('  Thank you for using SIMA External Force File Generator!   \n');
 fprintf('=============================================\n');
 fprintf('All processes have been completed. Please check the output folder for results.\n\n');
-
-close all

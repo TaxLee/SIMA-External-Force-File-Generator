@@ -6,7 +6,7 @@
   },
   "var_to_process": {
       "Mom_AboutLocalY_axis_End1": {
-          "transformationFunctionToTheVar": "Mom_AboutLocalY_axis_End1=Mom_AboutLocalY_axis_End1*(-1)",
+          "transformationFunctionToTheVar": "Var=Var*(-1)",
           "outputFileName": "Mom_AboutLocalY_axis_End1.txt"
       }
   },
