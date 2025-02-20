@@ -1,0 +1,110 @@
+{
+  "input_file": {
+    "file1": {
+      "path": "Data/NacelleMy.csv"
+    }
+  },
+  "var_to_process": {
+      "Mom_AboutLocalY_axis_End1": {
+          "transformationFunctionToTheVar": "Mom_AboutLocalY_axis_End1=Mom_AboutLocalY_axis_End1*(-1)",
+          "outputFileName": "Mom_AboutLocalY_axis_End1.txt"
+      }
+  },
+  "output_folder": "Results",
+  "generated_subfolder": "Figures",
+  "dataLines": ["2", "Inf"],
+  "fixedColCount": 8,
+  "plotting_preferences": {
+    "figure_size": [20, 15],
+    "color_scheme": "default",
+    "save_figures": true,
+    "y_label_map": {
+      "AxialForce": "$F_{z,\\mathrm{global}}$",
+      "TorsionalMoment": "$M_{z,\\mathrm{global}}$",
+      "Mom_AboutLocalY_axis_End1": "$M_{y,\\mathrm{global}}$",
+      "Mom_AboutLocalY_axis_End2": "$M_{y,\\mathrm{global,end2}}$",
+      "Mom_AboutLocalZ_axis_End1": "$M_{x,\\mathrm{global}}$",
+      "Mom_AboutLocalZ_axis_End2": "$M_{x,\\mathrm{global,end2}}$",
+      "ShearForceInLocalY_direction_End1": "$F_{y,\\mathrm{global}}$",
+      "ShearForceInLocalY_direction_End2": "$F_{y,\\mathrm{global,end2}}$",
+      "ShearForceInLocalZ_direction_End1": "$F_{x,\\mathrm{global}}$",
+      "ShearForceInLocalZ_direction_End2": "$F_{x,\\mathrm{global,end2}}$",
+      "IncomingWindSpeedX_dirInShaftSystem": "$U_{wx}$",
+      "AeroForceX_dirInShaftSystem": "$F_{x,\\mathrm{aero}}$",
+      "XGtranslationTotalmotion": "$\\xi_{1}$",
+      "YGtranslationTotalmotion": "$\\xi_{2}$",
+      "ZGtranslationTotalmotion": "$\\xi_{3}$",
+      "XLrotationTotalmotion": "$\\xi_{4}$",
+      "YLrotationTotalmotion": "$\\xi_{5}$",
+      "ZGrotationTotalmotion": "$\\xi_{6}$",
+      "Totalwaveelevation": "$\\eta$",
+      "XRforce": "$F_{x}$",
+      "YRforce": "$F_{y}$",
+      "ZRforce": "$F_{z}$",
+      "Moment_XRaxis": "$M_{x}$",
+      "Moment_YRaxis": "$M_{y}$",
+      "Moment_ZRaxis": "$M_{z}$"
+    },
+    "tight_subplot_params": {
+      "GapH": 0.12,
+      "GapW": 0.1,
+      "MarginsLower": 0.1,
+      "MarginsUpper": 0.08,
+      "MarginsLeft": 0.08,
+      "MarginsRight": 0.03
+    },
+    "plot_aesthetics": {
+      "line_width": 1.2,
+      "font_size_labels": 14,
+      "font_size_titles": 14,
+      "font_size_legend": 10
+    },
+    "plot_parameters": {
+      "define_x_range": 1,
+      "x_range": [0, 4000],
+      "define_y_range": 0,
+      "define_f_range": 1,
+      "f_range": [0.004, 0.5],
+      "define_psd_range": 0
+    },
+    "variable_to_plot": {
+      "All": 1,
+      "Mom_AboutLocalY_axis_End1": 1
+    }
+  },
+  "transientPeriod": 400,
+  "statistic_analysis": {
+    "enable": 1,
+    "writeToLog": 1
+  },
+  "time_series_plotting": {
+    "enable": 1,
+    "draw_mean_line": 0
+  },
+  "statistic_plotting": {
+    "enable": 1
+  },
+  "power_spectrum_plotting": {
+    "enable": 1
+  },
+  "subplot_order_control": {
+    "enable": 1,
+    "use_config": 1,
+    "orders": {
+      "Cc.GlobalTotalPosition": [1, 4, 2, 5, 3, 6],
+      "Cc.TotalForce": [1, 4, 2, 5, 3, 6],
+      "TowerLine.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body1_body2.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body2_body3.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body3_body4.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body4_body6.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body6_body5.segment_1.element_1": [6, 4, 5, 3, 1, 2],
+      "body1_body2.segment_2.element_1": [6, 4, 5, 3, 1, 2],
+      "body2_body3.segment_2.element_1": [6, 4, 5, 3, 1, 2],
+      "body3_body4.segment_2.element_1": [6, 4, 5, 3, 1, 2],
+      "body4_body6.segment_2.element_1": [6, 4, 5, 3, 1, 2],
+      "body6_body5.segment_2.element_1": [6, 4, 5, 3, 1, 2]
+    },
+    "plot_reorderNote": 0
+  }
+}
